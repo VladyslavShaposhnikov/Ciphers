@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("szyfry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774c4e751d9f66292f4e57e930731341eda3e02e")]
 [assembly: System.Reflection.AssemblyProductAttribute("szyfry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("szyfry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

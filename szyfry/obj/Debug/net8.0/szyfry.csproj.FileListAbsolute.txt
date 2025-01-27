@@ -28,3 +28,4 @@ C:\Users\vlady\RiderProjects\szyfry\szyfry\obj\Debug\net8.0\refint\szyfry.dll
 C:\Users\vlady\RiderProjects\szyfry\szyfry\obj\Debug\net8.0\szyfry.pdb
 C:\Users\vlady\RiderProjects\szyfry\szyfry\obj\Debug\net8.0\szyfry.genruntimeconfig.cache
 C:\Users\vlady\RiderProjects\szyfry\szyfry\obj\Debug\net8.0\ref\szyfry.dll
+C:\Users\vlady\RiderProjects\szyfry\szyfry\obj\Debug\net8.0\szyfry.sourcelink.json

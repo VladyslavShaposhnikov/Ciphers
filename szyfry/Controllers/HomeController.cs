@@ -248,7 +248,7 @@ public class HomeController : Controller
     {
         if (option == "encrypt")
         {
-            string noDuplicates = RemoveDuplicates(key.ToLower());
+            string noDuplicates = RemoveDuplicates(key.ToLower().Replace(" ", ""));
             
             string newalf = noDuplicates; // vriable to hold new alfabet with key
 
@@ -296,7 +296,7 @@ public class HomeController : Controller
             {
                 for(int j = 0; j < arr.GetLength(1); j++)
                 {
-                    dict[arr[i, j]] = [i, j];
+                    dict[arr[i, j]] = new int[] { i, j };
                 }
             }
 
@@ -375,7 +375,7 @@ public class HomeController : Controller
             {
                 for(int j = 0; j < arr.GetLength(1); j++)
                 {
-                    dict[arr[i, j]] = [i, j];
+                    dict[arr[i, j]] = new int[] { i, j };
                 }
             }
 
