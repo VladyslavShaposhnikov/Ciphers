@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center">
+    <h1 class="display-4 mb-4">Welcome to the Cryptography Algorithms Page!</h1>
+
+    <p class="lead mb-5">Explore various cryptographic algorithms below:</p>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Caesar Cipher</h5>
+                    <p class="card-text">A simple substitution cipher where each letter is shifted by a fixed number of positions in the alphabet.</p>
+                    <a href="@Url.Action("Caesar", "Home")" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Pobilius Cipher</h5>
+                    <p class="card-text">A cipher using a random key matrix to encrypt and decrypt messages.</p>
+                    <a href="@Url.Action("Pobilius", "Home")" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Playfair Cipher</h5>
+                    <p class="card-text">A digraph cipher that encrypts pairs of letters using a key square matrix.</p>
+                    <a href="@Url.Action("Playfair", "Home")" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Vigenère Cipher</h5>
+                    <p class="card-text">A polyalphabetic cipher that uses a keyword to shift letters.</p>
+                    <a href="@Url.Action("Vigener", "Home")" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">RSA Encryption</h5>
+                    <p class="card-text">A public-key encryption algorithm used to encrypt and decrypt messages securely.</p>
+                    <a href="@Url.Action("RSA", "Home")" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
